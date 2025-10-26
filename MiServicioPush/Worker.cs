@@ -88,10 +88,16 @@ public class Worker : BackgroundService
                     { "command", "ejecutar_tarea" },  // La "orden" para Android
                     { "timestamp", DateTime.UtcNow.ToString("yyyy-MM-ddTHH:mm:ss") }
                 },
-                Notification = new Notification()
+   
+            Android = new AndroidConfig()  // NUEVO
                 {
-                    Title = "Orden desde Servicio",
-                    Body = "Ejecuta la tarea ahora"
+                    Priority = Priority.High,  // Asegura ejecución en background
+                    // Nota: en la versión de FirebaseAdmin referenciada actualmente
+                    // la clase AndroidConfig no contiene la propiedad `Ttl`.
+                    // Si actualizas el paquete a una versión que soporte TTL,
+                    // en algunas versiones la propiedad es una cadena (ej. "60s").
+                    // Por ahora se elimina la asignación para evitar el error
+                    // de compilación.
                 }
             };
 

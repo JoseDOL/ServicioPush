@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MiServicioPush")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3a9aa11e3f73562dd5587bc75ca99508b8f65ec1")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb1b1a8daa066e33a7af9af04993b99c8461f51d")]
 [assembly: System.Reflection.AssemblyProductAttribute("MiServicioPush")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MiServicioPush")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
