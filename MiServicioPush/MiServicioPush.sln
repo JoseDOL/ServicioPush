@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiServicioPush", "MiServicioPush.csproj", "{5EE9FC87-E44E-3CDF-E2BB-CCEE1DD1EC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5EE9FC87-E44E-3CDF-E2BB-CCEE1DD1EC47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EE9FC87-E44E-3CDF-E2BB-CCEE1DD1EC47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EE9FC87-E44E-3CDF-E2BB-CCEE1DD1EC47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EE9FC87-E44E-3CDF-E2BB-CCEE1DD1EC47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8415DE1F-1AC6-455F-AC6F-B40E36337F16}
+	EndGlobalSection
+EndGlobal
