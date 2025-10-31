@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "819928263841",
+    "project_id": "messenger-2a89e",
+    "storage_bucket": "messenger-2a89e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:819928263841:android:e0bdbbb4be82c95c3fd4e0",
+        "android_client_info": {
+          "package_name": "com.example.creacion_de_puntos"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBThfVDUOtkuIDyFaE0lEwNrh1GtkuWslc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
