@@ -91,13 +91,7 @@ public class Worker : BackgroundService
    
             Android = new AndroidConfig()  // NUEVO
                 {
-                    Priority = Priority.High,  // Asegura ejecución en background
-                    // Nota: en la versión de FirebaseAdmin referenciada actualmente
-                    // la clase AndroidConfig no contiene la propiedad `Ttl`.
-                    // Si actualizas el paquete a una versión que soporte TTL,
-                    // en algunas versiones la propiedad es una cadena (ej. "60s").
-                    // Por ahora se elimina la asignación para evitar el error
-                    // de compilación.
+                    Priority = Priority.High,  
                 }
             };
 
